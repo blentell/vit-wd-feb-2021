@@ -4,3 +4,20 @@ p {
   font-style: italic;
   line-height: 22px;
 }
+
+h1 {
+  /* margin: 10px; */
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 10px;
+  margin-right: 100px;
+  border: solid 5px red;
+  padding: 10px;
+}
+ul {
+  background-color: gray;
+}
+
+li {
+  font-weight: 900;
+}

@@ -1,0 +1,14 @@
+h1 {
+  text-transform: lowercase;
+  color: blueviolet;
+}
+h2 {
+  text-align: right;
+  color: lemonchiffon;
+  font-family: "Pacifico", cursive;
+}
+h3 {
+  font-size: 58px;
+  color: red;
+  font-family: "Ballet", cursive;
+}
