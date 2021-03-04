@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
   text-transform: lowercase;
   color: blueviolet;
@@ -12,3 +13,14 @@ h3 {
   color: red;
   font-family: "Ballet", cursive;
 }
+=======
+body {
+    background-color: grey;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+>>>>>>> e39521936d03ebb93cdc6257c2780443dcf70538
