@@ -10,6 +10,16 @@ syntax
 
 function (nameOfYourFunc(){
 // do something
+answer: script tag
+
+EXTERNAL JS FILE
+
+// FUNCTIONS
+
+syntax
+
+function nameOfYourFunc(){
+// do something
 }
 
 utilization of the function
@@ -26,6 +36,19 @@ The Event Elements
 What is the difference between a single = and ==
 
 Event Feature
+
+1. listeners
+2. handlers
+
+the event listeners are tied to the html element.
+
+- form
+- button
+- input
+
+what is the difference between a single = and the ==
+
+Events Feature
 
 1. listeners
 2. handlers

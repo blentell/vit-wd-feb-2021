@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tipping Calculator</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js"></script>
   </head>
   <body>
-    <h1 id="grabMe">Welcome to my page</h1>
-    <button onclick="turnBGblue()">Change me to Blue</button>
-
-    <button onclick="turnBGblue()">Change Me to Blue</button>
-    <input />
+    <div class="container">
+      <div class="display">
+        <input id="billAmount" type="text" />
+        <button id="calculateTip">Calculate Tip Amount</button>
+        tipAmount()
+      </div>
+    </div>
   </body>
 </html>
