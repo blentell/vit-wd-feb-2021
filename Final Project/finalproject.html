@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="./finalproject.css" />
+    <script defer src="./finalproject.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Medula+One&family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Medula+One&family=Megrim&family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="background">
+      <div id="header">
+        <div id="leftHeader">
+          <img id="topLogo" src="" alt="" />
+          <h1 id="main">Book Catalogue</h1>
+        </div>
+        <div id="rightHeader">
+          <ul id="headerList">
+            <li>Author</li>
+            <li>Book Title</li>
+            <li>Genre</li>
+          </ul>
+        </div>
+      </div>
+      <div id="hero">
+        <div id="heroBanner">
+          <h1 id="heroWords">To Read or Not to Read...</h1>
+        </div>
+      </div>
+      <div id="formMain">
+        <h1 id="formFieldTitle">
+          Fill in your book information and submit to save to your library.
+        </h1>
+        <div id="formFields">
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="name" />
+          <label for="author">Author:</label>
+          <input type="text" id="author" name="name" />
+          <label for="genre">Genre:</label>
+          <input type="text" id="genre" name="name" />
+          <br />
+          <label for="description">Description:</label>
+          <input type="text" id="description" name="name" size="75%" />
+          <button id="addToList" onclick="submit()">Add to List</button>
+        </div>
+      </div>
+      <div id="mainBookList">
+        <ul id="contentList"></ul>
+      </div>
+      <div id="footer">
+        <ul>
+          <li>About</li>
+          <li>Social</li>
+          <li>Copyright</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
