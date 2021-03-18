@@ -35,13 +35,20 @@
       <div id="header">
         <div id="leftHeader">
           <img id="topLogo" src="" alt="" />
-          <h1 id="main">Book Catalogue</h1>
+          <h1 id="main">
+            <a
+              href="https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books_788dc1d04dfe44a2b3249e7a7c245230>"
+              target="_blank"
+              >Book Catalogue</a
+            >
+          </h1>
         </div>
         <div id="rightHeader">
+          <h1 id="rightHeaderTitle">Sort by:</h1>
           <ul id="headerList">
-            <li>Author</li>
-            <li>Book Title</li>
-            <li>Genre</li>
+            <li id="sortAuthor" onclick="sortAuthor()">Author</li>
+            <li id="sortTitle" onclick="sortTitle()">Book Title</li>
+            <li id="sortGenre" onclick="sortGenre()">Genre</li>
           </ul>
         </div>
       </div>
@@ -68,13 +75,55 @@
         </div>
       </div>
       <div id="mainBookList">
-        <ul id="contentList"></ul>
+        <div id="titleList">
+          <h1>Title</h1>
+          <ul id="titleContentList"></ul>
+        </div>
+        <div id="authorList">
+          <h1>Author</h1>
+          <ul id="authorContentList"></ul>
+        </div>
+        <div id="genreList">
+          <h1>Genre</h1>
+          <ul id="genreContentList"></ul>
+        </div>
+        <div id="descriptionList">
+          <h1>Description</h1>
+          <ul id="descriptionContentList"></ul>
+        </div>
+        <div id="search">
+          <label id="searchLabel" for="searchBar"
+            >Want to know if you own a specific book? Search by Title, Author or
+            Genre
+          </label>
+
+          <input type="text" id="searchBar" placeholder="Search" />
+          <button id="searchButton">Search</button>
+        </div>
       </div>
       <div id="footer">
-        <ul>
-          <li>About</li>
-          <li>Social</li>
-          <li>Copyright</li>
+        <ul id="footerList">
+          <li>
+            <a
+              href="https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books_788dc1d04dfe44a2b3249e7a7c245230>"
+              target="_blank"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books_788dc1d04dfe44a2b3249e7a7c245230>"
+              target="_blank"
+              >Social></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books_788dc1d04dfe44a2b3249e7a7c245230>"
+              target="_blank"
+              >Copyright</a
+            >
+          </li>
         </ul>
       </div>
     </div>
